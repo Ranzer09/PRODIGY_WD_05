@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+<body>
+<div class="header">
+        <section class="head">
+         
+            How's the weather over there?
+        </section>
+        <section id="time">
+            time
+        </section>
+</div>
+    <div class="wrapper">
+        <div class="search">
+            <input type="text" id="city" placeholder="Enter the city name" spellcheck="false">
+            <button id="search"><img src="images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Please Enter Valid City Name!</p>
+        </div>
+<div class="disability">
+    <h1 class="city">City</h1>
+        <div class="infowrapper">
+            <div class="infowrapper2">
+             <div class="container">
+                <section id="icon">
+                    <img class="icon" src="images/clear.svg">
+                </section>
+                <section>
+                    <span id="deg"></span>                
+                </section>
+             </div>
+                <div id="type">
+                </div>
+            </div>
+            <div class="info2">
+                <div class="images">
+                <div class="rain">
+                    <img src="images/aqi.png" >
+                </div> 
+                <div class="humidity">          
+                    <img src="images/humidity.png" >
+                </div> 
+                <div class="wind">
+                    <img src="images/wind.png">
+                </div>  
+                </div>
+                <div class="details">
+                <div>
+                    <span>AQI:</span>
+                    <p id="aqi"></p>
+                </div>
+                <div>
+                    <span>Humidity:</span>
+                    <p id="humidity"></p>
+                </div>
+                <div>
+                    <span>Wind:</span>
+                    <p id="wind"></p>
+                </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
