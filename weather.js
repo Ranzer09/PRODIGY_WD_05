@@ -1,4 +1,4 @@
-const apikey='' //insert your api key
+const apikey='3fa322b40a0bb823162e399613dc1770' //insert your api key
 const apiurl='https://api.openweathermap.org/data/2.5/weather?units=metric&q='
 const aqiapiurl="http://api.openweathermap.org/data/2.5/air_pollution?"
 function Time() {
